@@ -21,6 +21,8 @@
     int _projectilesDestroyed;
     
     CCSprite *_player;
+    
+    CCSprite *_nextProjectile;
 }
 
 // returns a CCScene that contains the HelloWorldLayer as the only child
