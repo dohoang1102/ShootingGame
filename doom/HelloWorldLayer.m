@@ -138,8 +138,7 @@
         
 		
         CGSize winSize = [[CCDirector sharedDirector] winSize];
-        CCSprite *player = [CCSprite spriteWithFile:@"Player.png" 
-                                               rect:CGRectMake(0, 0, 27, 40)];
+        CCSprite *player = [CCSprite spriteWithFile:@"Player2.jpg"];
         player.position = ccp(player.contentSize.width/2, winSize.height/2);
         [self addChild:player];
         
@@ -186,8 +185,7 @@
     
     // Set up initial location of projectile
     CGSize winSize = [[CCDirector sharedDirector] winSize];
-    CCSprite *projectile = [CCSprite spriteWithFile:@"Projectile.png" 
-                                               rect:CGRectMake(0, 0, 20, 20)];
+    CCSprite *projectile = [CCSprite spriteWithFile:@"Projectile2.jpg"];
     projectile.position = ccp(20, winSize.height/2);
     
     // Determine offset of location to projectile

@@ -128,6 +128,8 @@
 		51C4F8941504FA900034BFAA /* background-music-aac.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51C4F8921504FA900034BFAA /* background-music-aac.caf */; };
 		51C4F8951504FA900034BFAA /* pew-pew-lei.caf in Resources */ = {isa = PBXBuildFile; fileRef = 51C4F8931504FA900034BFAA /* pew-pew-lei.caf */; };
 		51C4F8981504FDAA0034BFAA /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C4F8971504FDA90034BFAA /* GameOverScene.m */; };
+		51C4F89B150514780034BFAA /* Projectile2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51C4F899150514780034BFAA /* Projectile2.jpg */; };
+		51C4F89C150514780034BFAA /* Player2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 51C4F89A150514780034BFAA /* Player2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -373,6 +375,8 @@
 		51C4F8931504FA900034BFAA /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		51C4F8961504FDA90034BFAA /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
 		51C4F8971504FDA90034BFAA /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		51C4F899150514780034BFAA /* Projectile2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Projectile2.jpg; sourceTree = "<group>"; };
+		51C4F89A150514780034BFAA /* Player2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Player2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -448,6 +452,8 @@
 		51C4F72C1504F2500034BFAA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				51C4F899150514780034BFAA /* Projectile2.jpg */,
+				51C4F89A150514780034BFAA /* Player2.jpg */,
 				51C4F8921504FA900034BFAA /* background-music-aac.caf */,
 				51C4F8931504FA900034BFAA /* pew-pew-lei.caf */,
 				51C4F88C1504F2820034BFAA /* Target.png */,
@@ -843,6 +849,8 @@
 				51C4F8911504F2820034BFAA /* Player.png in Resources */,
 				51C4F8941504FA900034BFAA /* background-music-aac.caf in Resources */,
 				51C4F8951504FA900034BFAA /* pew-pew-lei.caf in Resources */,
+				51C4F89B150514780034BFAA /* Projectile2.jpg in Resources */,
+				51C4F89C150514780034BFAA /* Player2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
